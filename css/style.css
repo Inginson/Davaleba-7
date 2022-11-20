@@ -1,0 +1,40 @@
+.container {
+  max-width: 1366px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid red;
+  background-color: #FAFAFA;
+}
+
+.header {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  background-color: white;
+  border-radius: 0 0 40px 40px;
+  border: 1px solid blue;
+}
+
+.header img {
+  float: left;
+  padding: 40px 0px 40px 50px;
+}
+
+.header div {
+  display: flex;
+  text-align: center;
+  border: 1px solid yellow;
+}
+
+
+
+.header .cart {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.fa-bars {
+  color: black;
+  margin: 0px 385px 0px 385px;
+}
